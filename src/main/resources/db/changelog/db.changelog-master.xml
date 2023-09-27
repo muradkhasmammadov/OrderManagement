@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.7.xsd">
+
+    <changeSet id="update_order_line_quantity1" author="murad">
+        <update tableName="order_line">
+            <column name="quantity" valueNumeric= "29"/>
+            <where>order_line_id = 2</where>
+        </update>
+    </changeSet>
+
+    <changeSet id="update_order_line_quantity2" author="murad">
+        <update tableName="order_line">
+            <column name="quantity" valueNumeric= "10"/>
+            <where>order_line_id = 3</where>
+        </update>
+    </changeSet>
+
+    <changeSet id="update_order_line_quantity3" author="murad">
+        <update tableName="order_line">
+            <column name="quantity" valueNumeric= "20"/>
+            <where>order_line_id = 4</where>
+
+        </update>
+    </changeSet>
+
+    <changeSet id="update_order_line_quantity4" author="murad">
+        <update tableName="order_line">
+            <column name="quantity" valueNumeric= "30"/>
+            <where>order_line_id = 5</where>
+        </update>
+    </changeSet>
+
+    <changeSet id="update_order_line_quantity5" author="murad">
+        <update tableName="order_line">
+            <column name="quantity" valueNumeric= "40"/>
+            <where>order_line_id = 6</where>
+        </update>
+    </changeSet>
+
+    <changeSet id="create_new_product" author="murad">
+        <insert tableName="product" >
+            <column name="name" value= "smartPhone"/>
+            <column name="sku_code" value= "2931"/>
+            <column name="unit_price" valueNumeric= "11.22"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>

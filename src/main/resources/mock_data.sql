@@ -1,0 +1,10 @@
+insert into product (name, sku_code, unit_price) values ('sbarnbrook0', 29, 51);
+insert into product (name, sku_code, unit_price) values ('jangrave1', 64, 75);
+insert into product (name, sku_code, unit_price) values ('gjorden2', 89, 31);
+insert into product (name, sku_code, unit_price) values ('ldemullett3', 88, 81);
+insert into product (name, sku_code, unit_price) values ('dayrs4', 2, 71);
+insert into product (name, sku_code, unit_price) values ('sgaskal5', 27, 46);
+insert into product (name, sku_code, unit_price) values ('dcatling6', 93, 55);
+insert into product (name, sku_code, unit_price) values ('epeteri7', 30, 49);
+insert into product (name, sku_code, unit_price) values ('kpedycan8', 70, 59);
+insert into product (name, sku_code, unit_price) values ('wcrayker9', 93, 66);
